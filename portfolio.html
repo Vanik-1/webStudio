@@ -1,67 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>WebStudio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./styles.CSS">
+    <link rel="stylesheet" href="./reset.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="index.html">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">info@devstudio.com</a></li>
-                <li><a href="#">+380961111111</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Effective solutions for your business</h1>
-        <button type="button">Order a service</button>
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="main-link">Web<span class="ingredient">Studio</span></a>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./porfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-list">
+                <li class="list-item">
+                    <a href="#" class="list-link-email">info@devstudio.com</a>
+                </li>
+                <li class="list-item">
 
+                    <a href="#" class="list-link-number">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="gallery">
+        <section class="gallery-section">
+            <div class="container">
+                <ul class="gallery-list">
+                    <li class="gallery-item-all">
+                        <a href="#" class="gallery-link">All</a>
+                    </li>
+                    <li class="gallery-item">
+                        <a href="#" class="gallery-link">Websites</a>
+                    </li>
+                    <li class="gallery-item">
+                        <a href="#" class="gallery-link">Application</a>
+                    </li>
+                    <li class="gallery-item">
+                        <a href="#" class="gallery-link">Design</a>
+                    </li>
+                    <li class="gallery-item">
+                        <a href="#" class="gallery-link">Marketing</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="second-gallery-section">
+            <div class="container">
+                <ul class="second-gallery-list">
+                    <li class="second-gallery-item">
+                        <img src="./images/img.jpg" alt="Technocrack" class="gallery-photo">
+                        <h2 class="gallery-title">Technocrack</h2>
+                        <p class="gallery-paragraph">Website</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(1).jpg" alt="New Orleans vs Golden Star poster" class="gallery-photo">
+                        <h2 class="gallery-title">New Orleans vs Golden Star poster</h2>
+                        <p class="gallery-paragraph">Design</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(2).jpg" alt="Seafood restaurant" class="gallery-photo">
+                        <h2 class="gallery-title">Seafood restaurant</h2>
+                        <p class="gallery-paragraph">Application</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(3).jpg" alt="Project Prime" class="gallery-photo">
+                        <h2 class="gallery-title">Project Prime</h2>
+                        <p class="gallery-paragraph">Marketing</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(4).jpg" alt="Boxes project" class="gallery-photo">
+                        <h2 class="gallery-title">Boxes project</h2>
+                        <p class="gallery-paragraph">Application</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(5).jpg" alt="Inspiration has no Borders" class="gallery-photo">
+                        <h2 class="gallery-title">Inspiration has no Borders</h2>
+                        <p class="gallery-paragraph">Website</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(6).jpg" alt="Edition Limited Edition" class="gallery-photo">
+                        <h2 class="gallery-title">Edition Limited Edition</h2>
+                        <p class="gallery-paragraph">Design</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(7).jpg" alt="LAB project" class="gallery-photo">
+                        <h2 class="gallery-title">LAB project</h2>
+                        <p class="gallery-paragraph">Marketing</p>
+                    </li>
+                    <li class="second-gallery-item">
+                        <img src="./images/img(8).jpg" alt="Growing Business" class="gallery-photo">
+                        <h2 class="gallery-title">Growing Business</h2>
+                        <p class="gallery-paragraph">Application</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li>Attention to details</li>
-            <h4>Attention to details
-                Ideological considerations, as well as the beginning of daily work on positioning.</h4>
-        </ul>
-        <ul>
-
-            <li>Punktuality</li>
-            <h4>The most important quality that clearly defines the framework for different projects.</h4>
-        </ul>
-        <ul>
-            <li>Planning</li>
-            <h4>Consulting with a wide range of expertise that determines the final result.</h4>
-
-        </ul>
-
-        <ul>
-            <li>Modern technology</li>
-            <h4>The ability to perform the most complex projects at the highest level </h4>
-        </ul>
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="main-footer-link"><span class="footer-ingredient">Web</span>Studio</a>
+            <address class="footer-address">
+                <div class="footer-container">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <p class="footer-paragraph">Kyiv, 26 Lesi Ukrainky Ave</p>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                    <ul class="contact-list">
+                        <h3 class="contact-title">Join us</h3>
+                        <li class="contact-item">
+                            <a href="#" class="contact-link"><img src="./images/instagram2.png" alt="instagram"
+                                    class="contact-image"></a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="#" class="contact-link"><img src="./images/twitter1.png" alt="twitter"
+                                    class="contact-image"></a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="#" class="contact-link"><img src="./images/facebook1.png" alt="facebook"
+                                    class="contact-image"></a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="#" class="contact-link"><img src="./images/linkedin1.png" alt="linkedin"
+                                    class="contact-image"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--<form action="submit" class="email-form">
+            <label for="email" class="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit" class="submit-button">Subscribe</button>
+          </form>-->
+        </div>
     </footer>
-    <h2>What do we do?</h2>
-    <img src="images/img.jpg" alt="#">
-    <img src="images/box2.jpg" alt="#">
-    <img src="images/box3.jpg" alt="#">
-
-    <h2>Our team</h2>
-    <img src="images/ihordemyanko.jpg" alt="Ihor Demyanenko">
-    <h2> Demyanenko/Product designer</h2>
-    <img src="images/olgarepina.jpg" alt="Olga Repina">
-    <h2>Olga Repina/Frontend Developer</h2>
-    <img src="images/mykolatarasov.jpg" alt="Mykola Tarasov">
-    <h2>Mykola Tarasov/Marketing</h2>
-    <img src="images/mykhailoyermakov.jpg" alt="Mykhailo Yermakov">
-    <h2>Mykhailo Yermakov/UI Designer </h2>
-
-    <img src="images/ihavenotimesorry.jpg" alt="#">
 </body>
 
 </html>
