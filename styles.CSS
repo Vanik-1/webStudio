@@ -5,3 +5,43 @@
 --footer-background: #2F303A;
 --section-background: #F5F4FA;
 } 
+.social-link{
+    background-color: rgba(166, 161, 171, 0.5);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link:hover{
+    background-color: #2196F3;
+}
+.social-icon{
+    fill: white;
+}
+.clients{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+.client-link{
+    width: 170px;
+    height: 92px;
+    border: solid 1px #AFB1B8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.client-icon{
+    fill: #AFB1B8;
+}
+.client-link:hover{
+    border: solid 1px var(--excent-color);
+}
+.client-link:hover .client-icon{
+    fill: var(--excent-color);
+}
