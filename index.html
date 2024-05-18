@@ -29,7 +29,7 @@
     <main>
         <section>
             <h1>Effective solutions for your business</h1>
-            <button type="button">Order a service</button>
+            <button type="button" data-modal-open>Order a service</button>
         </section>
         <section>
             <h2 hidden>section title</h2>
@@ -146,8 +146,53 @@
                             <use href="./icons-defs.svg#icon-linkedin"></use>
                         </svg></a></li>
             </ul>
-        </div>
+            </dv>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+
+        <div class="modal">
+            <button class="btn" data-modal-close>Close</button>
+
+            <h3 class="form-header">Leave your details we will call you back</h3>
+            <form action="#" class="form">
+                <div class="form-group"><label for="name">name</label>
+                    <input type="text" id="name" name="name" />
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="./icons-defs.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="form-group"><label for="phone">phone</label>
+                    <input type="tel" id="phone" name="phone" />
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="./icons-defs.svg#icon-phone"></use>
+                    </svg>
+                </div>
+                <div class="form-group"><label for="email">email</label>
+                    <input type="email" id="email" name="email" />
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="./icons-defs.svg#icon-email"></use>
+                    </svg>
+                </div>
+                <div class="form-group"><label for="comment">comment</label>
+                    <textarea name="comment" id="comment" rows="5" placeholder="Type your text"></textarea>
+                </div>
+                <label class="form-acception">
+                    <input type="checkbox" name="accept" class="form-acception__check" />
+                
+                    <span class="form-acception__icon"></span>
+                
+                    I agree with newsletters and accept
+                    <a href="/"> Contract terms </a>
+                </label>
+                <button class="button" type="submit">submit</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+    <script src="/js/modal.js"></script>
 </body>
 
 </html>
