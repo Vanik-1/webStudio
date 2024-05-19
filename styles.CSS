@@ -5,6 +5,18 @@
 --footer-background: #2F303A;
 --section-background: #F5F4FA;
 } 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.page-header>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 500px; */
+}
 .social-link{
     background-color: rgba(166, 161, 171, 0.5);
     border-radius: 50%;
